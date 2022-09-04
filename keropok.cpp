@@ -7,7 +7,7 @@ int main() {
     float a = 5;
 
      do {
-        cout << "Berapa CGPA awak? Jawapan dalam satu perpuluhan.";
+        cout << "Berapa CGPA awak? " << endl << "CGPA: ";
 
         cin >> a;
 
@@ -23,6 +23,8 @@ int main() {
         else {
             cout << "Kau pandai baca ke tak.Baca lah betul-betul.";
         }
+
+        cout << endl;
 
     }  while ( a <= 4 );
 
