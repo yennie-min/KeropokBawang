@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
 
-    float a = 5;
+    float a;
 
-     do {
+     while ( a <= 4 ) {
         cout << "Berapa CGPA awak? Jawapan dalam satu perpuluhan.";
 
         cin >> a;
@@ -24,7 +24,7 @@ int main() {
             cout << "Kau pandai baca ke tak.Baca lah betul-betul.";
         }
 
-    }  while ( a <= 4 );
+    }  
 
     
 
