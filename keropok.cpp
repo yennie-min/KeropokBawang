@@ -4,9 +4,10 @@ using namespace std;
 
 int main() {
 
-    float a = 5;
+    float a;
 
-     do {
+        
+     while ( a <= 4 ) {
         cout << "Berapa CGPA awak? " << endl << "CGPA: ";
 
         cin >> a;
@@ -25,8 +26,7 @@ int main() {
         }
 
         cout << endl;
-
-    }  while ( a <= 4 );
+    }  
 
     
 
