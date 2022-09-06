@@ -36,7 +36,7 @@ int main ()
      cout << "----------------------------------------------" << endl;
      cout << "This is the Yenculator Instruction." << endl;
      cout << "1. Put your first value on A." << endl;
-     cout << "2. Choose a symbol (+,-,*,/,%)" << endl;
+     cout << "2. Choose a symbol (+,-,*,/)" << endl;
      cout << "3. Put your second value on B." << endl;
      cout << "4. Press 'Enter' after placing" << endl;
      cout << "   your second value to calculate" << endl;
